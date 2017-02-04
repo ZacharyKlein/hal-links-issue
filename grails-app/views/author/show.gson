@@ -1,0 +1,10 @@
+import com.example.Author
+
+model {
+    Author author
+}
+json {
+    hal.links(self:author)
+    id author.id
+    books tmpl.book(author.books)
+}

@@ -1,0 +1,48 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://localhost:9090/author/index/1",
+      "hreflang": "en_US",
+      "type": "application/hal+json"
+    }
+  },
+  "id": 1,
+  "books": [
+    {
+      "_links": {
+        "self": {
+          "href": "http://localhost:9090/book/show/2",
+          "hreflang": "en_US",
+          "type": "application/hal+json"
+        }
+      },
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://localhost:9090/book/show/3",
+          "hreflang": "en_US",
+          "type": "application/hal+json"
+        }
+      },
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://localhost:9090/book/show/1",
+          "hreflang": "en_US",
+          "type": "application/hal+json"
+        }
+      },
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://localhost:9090/book/show/4",
+          "hreflang": "en_US",
+          "type": "application/hal+json"
+        }
+      },
+    }
+  ]
+}

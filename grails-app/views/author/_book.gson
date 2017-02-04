@@ -1,0 +1,8 @@
+import com.example.Book
+
+model {
+    Book book
+}
+json {
+    hal.links(book)
+}
